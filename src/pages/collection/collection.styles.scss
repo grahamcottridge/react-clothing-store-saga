@@ -1,5 +1,6 @@
 .collection-page {
   display: flex;
+  flex: wrap;
   flex-direction: column;
 
   .title {
@@ -8,10 +9,10 @@
   }
 
   .items {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
-
+    display: flex;
+    flex-direction: row;
+    // grid-template-columns: 1fr 1fr 1fr 1fr;
+    // grid-gap: 10px;
     & .collection-item {
       margin-bottom: 30px;
     }
