@@ -1,5 +1,5 @@
 .menu-item {
-  min-width: 30%;
+  min-width: 28%;
   height: 240px;
   flex: 1 1 auto;
   display: flex;
@@ -42,8 +42,9 @@
   }
 
   .content {
-    height: 90px;
-    padding: 0 25px;
+    max-width: 16%;
+    min-height: 100px;
+    padding: 25px 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,7 +56,6 @@
 
     .title {
       font-weight: bold;
-      margin-bottom: 6px;
       font-size: 22px;
       color: #4a4a4a;
     }
