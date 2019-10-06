@@ -1,5 +1,5 @@
 .menu-item {
-  min-width: 28%;
+  min-width: 30%;
   height: 240px;
   flex: 1 1 auto;
   display: flex;
@@ -24,7 +24,6 @@
 
   &.large {
     height: 380px;
-    width: 300px;
   }
 
   &:first-child {
@@ -44,7 +43,7 @@
 
   .content {
     height: 90px;
-    padding: 0 12px;
+    padding: 0 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
