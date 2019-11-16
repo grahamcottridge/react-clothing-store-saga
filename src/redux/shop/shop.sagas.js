@@ -32,3 +32,7 @@ export function* fetchCollectionsStart() {
     fetchCollectionsAsync
   );
 }
+
+export function* shopSagas() {
+  yield all([call(fetchCollectionsStart)]);
+}
