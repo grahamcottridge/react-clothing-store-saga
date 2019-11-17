@@ -36,7 +36,7 @@ class SignIn extends React.Component {
   };
 
   render() {
-    const { googleSignInStart, emailSignInStart } = this.props;
+    const { googleSignInStart } = this.props;
     return (
       <div className="sign-in">
         <h2 className="title">I already have an account</h2>
